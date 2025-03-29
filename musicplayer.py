@@ -12,8 +12,8 @@ ctk.set_default_color_theme("blue")
 class ModernMusicPlayer(ctk.CTk):
     def __init__(self):
         super().__init__()
-        self.title("Modern Music Player")
-        self.geometry("800x500")
+        self.title("Music Player")
+        self.geometry("950x500")
         self.resizable(False, False)
         
         # Internal state
